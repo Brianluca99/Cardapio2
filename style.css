@@ -1,0 +1,39 @@
+/* Você pode adicionar estilos personalizados aqui, se necessário,
+   além das classes do Tailwind CSS. */
+
+header {
+    background-color: #E11D48;
+    padding: 0.75rem 5%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-image: url(doces/morango\ do\ amor\ 2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.tab-button.active {
+    color: #E11D48; /* rose-600 */
+    border-color: #E11D48; /* rose-600 */
+}
+
+
+.logo-marca{
+display: flex;
+width: 100%;
+align-items: center;
+margin-top: -2rem;
+}
+
+/* Estilos para o conteúdo das abas */
+.tab-content {
+    display: none; /* Esconde todas as abas por padrão */
+}
+
+.tab-content.active {
+    display: block; /* Mostra a aba ativa */
+}
